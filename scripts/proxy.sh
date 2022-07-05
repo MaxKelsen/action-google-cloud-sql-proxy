@@ -17,5 +17,5 @@ docker run \
   "${IMAGE}" \
   /cloud_sql_proxy \
   -dir "${DIR}" \
-  -credential_file "${DIR}/key.json" \
+  -token "${4}" \
   -instances="${CONNECTION}=tcp:${PORT}"

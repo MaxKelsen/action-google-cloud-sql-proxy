@@ -35,7 +35,7 @@ jobs:
 
 | input      | required | default         | description                                                        |
 |------------|----------|-----------------|--------------------------------------------------------------------|
-| key        | ✓        | `-`             | Service Account JSON Key                                           |
+| token      | ✓        | `-`             | Service Account OIDC token                                         |
 | connection | ✓        | `-`             | Cloud SQL connection name                                          |
 | port       | ✓        | `-`             | *Listening port (MySQL: 3306, PostgreSQL: 5432, SQL Server: 1433)* |
 | version    | ✗        | `1.22.0-alpine` | Cloud SQL Proxy [Version][]                                        |
